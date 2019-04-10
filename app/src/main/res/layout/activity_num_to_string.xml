@@ -49,8 +49,4 @@
         android:textColor="#fff"
         android:layout_margin="40dp"
         android:id="@+id/tv_result"/>
-
-
-
-
 </LinearLayout>

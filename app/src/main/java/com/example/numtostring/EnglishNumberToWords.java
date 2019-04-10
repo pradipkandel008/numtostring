@@ -103,7 +103,8 @@ import java.text.DecimalFormat;
             result = result + tradThousand;
 
             // remove extra spaces!
-            return result.replaceAll("^\\s+", "").replaceAll("\\b\\s{2,}\\b", " ");
+            return result.replaceAll("^\\s+", "").replaceAll("\\b\\s{2,}\\b",
+                    " ");
         }
 
     }
